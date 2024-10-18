@@ -1,0 +1,21 @@
+#aboutEmail, #aboutPhone {
+    display: inline-block;
+    margin: 15px;
+}
+#aboutInfo, #aboutBioDiv {
+    width: 50%;
+    text-align: center;
+}
+#aboutDiv{
+    position: relative;
+    left: 25%;
+    top: 50%;
+}
+#aboutForm{
+    margin: 10px auto 0 auto;
+    position: relative;
+    left: -25%
+}
+.unified {
+    display: inline-block;
+}

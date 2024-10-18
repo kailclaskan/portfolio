@@ -1,0 +1,27 @@
+{
+  "name": "kennethleepowell-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Kenneth L Powell. Uses www.kennethleepowell.com as url.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Kenneth L Powell",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonschema": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "postgres-bytea": "^3.0.0",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

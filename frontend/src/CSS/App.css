@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.sectionBtn, .sectionH2 {
+  display: inline-block;
+}
+.hidden{
+  display: none;
+}
+.imgBtn {
+  margin-left: 3%;
+  width: 15px;
+}
+button {
+  margin: 10px 20px;
+}

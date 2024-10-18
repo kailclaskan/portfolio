@@ -1,0 +1,125 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "username": "KailClaskan",
+            "password": "2a.k23kagkaedagk32lasdagasdla",
+            "first_name": "Kenneth L",
+            "last_name": "Powell",
+            "date_of_birth": "11281983",
+            "security_question_a": "How far to the express?",
+            "security_answer_a": "700 miles.",
+            "security_question_b": "How far to the express?",
+            "security_answer_b": "700 miles."
+        }
+    ],
+    "required": [
+        "username",
+        "password",
+        "first_name",
+        "last_name",
+        "date_of_birth",
+        "security_question_a",
+        "security_answer_a",
+        "security_question_b",
+        "security_answer_b"
+    ],
+    "properties": {
+        "username": {
+            "$id": "#/properties/username",
+            "type": "string",
+            "title": "The username schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "KailClaskan"
+            ]
+        },
+        "password": {
+            "$id": "#/properties/password",
+            "type": "string",
+            "title": "The password schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2a.k23kagkaedagk32lasdagasdla"
+            ]
+        },
+        "first_name": {
+            "$id": "#/properties/first_name",
+            "type": "string",
+            "title": "The first_name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Kenneth L"
+            ]
+        },
+        "last_name": {
+            "$id": "#/properties/last_name",
+            "type": "string",
+            "title": "The last_name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Powell"
+            ]
+        },
+        "date_of_birth": {
+            "$id": "#/properties/date_of_birth",
+            "type": "string",
+            "title": "The date_of_birth schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "11281983"
+            ]
+        },
+        "security_question_a": {
+            "$id": "#/properties/security_question_a",
+            "type": "string",
+            "title": "The security_question_a schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "How far to the express?"
+            ]
+        },
+        "security_answer_a": {
+            "$id": "#/properties/security_answer_a",
+            "type": "string",
+            "title": "The security_answer_a schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "700 miles."
+            ]
+        },
+        "security_question_b": {
+            "$id": "#/properties/security_question_b",
+            "type": "string",
+            "title": "The security_question_b schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "How far to the express?"
+            ]
+        },
+        "security_answer_b": {
+            "$id": "#/properties/security_answer_b",
+            "type": "string",
+            "title": "The security_answer_b schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "700 miles."
+            ]
+        }
+    },
+    "additionalProperties": true
+}
